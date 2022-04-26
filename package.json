@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-starter",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "clean": "gatsby clean",
+    "start": "npm run develop",
+    "build": "npm run clean && gatsby build",
+    "develop": "npm run clean && gatsby develop",
+    "serve": "gatsby serve",
+    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"{gatsby-*.js,src/**/*.js}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "netlify:login": "netlify login",
+    "netlify:status": "netlify status",
+    "netlify:link": "netlify link",
+    "netlify:dev": "netlify dev",
+    "netlify:build": "netlify build",
+    "netlify:deploy-prod": "netlify deploy --prod"
+  },
+  "author": "Matthew Abrman",
+  "license": "MIT",
+  "dependencies": {
+    "gatsby": "^4.13.0",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-image": "^2.13.0",
+    "gatsby-plugin-react-helmet": "^5.13.0",
+    "gatsby-plugin-root-import": "^2.0.8",
+    "gatsby-plugin-styled-components": "^5.13.0",
+    "node-fetch": "^2.6.7",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "styled-components": "^5.3.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.0",
+    "@types/styled-components": "^5.1.25",
+    "gatsby-plugin-netlify": "^4.3.0",
+    "netlify-cli": "^10.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
+  },
+  "engines": {
+    "node": ">= 14.15.0"
+  }
+}
